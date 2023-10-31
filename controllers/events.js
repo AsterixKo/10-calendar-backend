@@ -8,6 +8,8 @@ const getEventos = async (req, res = response) => {
 };
 
 const crearEvento = async (req, res = response) => {
+  console.log(req.body);
+
   return res.status(200).json({
     ok: true,
     msg: "crearEvento",
